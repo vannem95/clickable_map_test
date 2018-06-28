@@ -1,7 +1,7 @@
 <launch>
 
-  	<arg name="map_file" default="$(find clickable_map_test)/willow-edited-2010-02-18-0.025.pgm"/>
-  	<node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file) 0.025" />
+  	<!--arg name="map_file" default="$(find clickable_map_test)/willow-edited-2010-02-18-0.025.pgm"-->
+  	<!--node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file) 0.025"-->
 
 
 
