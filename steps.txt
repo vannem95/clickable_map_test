@@ -1,0 +1,11 @@
+Get these packages before running clickable_map_test:
+
+	rosbridge_server
+	rosbridge_suite
+	map_server
+
+
+Steps:
+  i. launch the map launch file
+ ii. source the workspace in which map_server and run "rosrun map_server map_server [directory with the map]/willow-edited-2010-02-18-0.025.pgm 0.025"
+iii. open "map.html" file in chrome
